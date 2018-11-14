@@ -1,0 +1,225 @@
+<!--_meta 作为公共模版分离出去-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="/favicon.ico" >
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="lib/html5shiv.js"></script>
+    <script type="text/javascript" src="lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <!--/meta 作为公共模版分离出去-->
+
+    <title>添加用户 - H-ui.admin v3.1</title>
+    <meta name="keywords" content="H-ui.admin v3.1,H-ui网站后台模版,后台模版下载,后台管理系统模版,HTML后台模版下载">
+    <meta name="description" content="H-ui.admin v3.1，是一款由国人开发的轻量级扁平化网站后台模板，完全免费开源的网站后台管理系统模版，适合中小型CMS后台系统。">
+</head>
+<body>
+<article class="page-container">
+    <form action="" method="post" class="form form-horizontal" id="form-member-manager">
+        <div id="div1" class="row cl">
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>名称：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="pname" name="pname">
+                <input type="hidden" id="pid" name="pid" value=""/>
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="sex" name="sex">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>性别取向：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="gender" name="gender">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>身份证：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="idCard" name="idCard">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>手机：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" value="" placeholder="" id="phone" name="phone">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>邮箱：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" placeholder="@" name="email" id="email">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>密码：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" placeholder="" name="pwd" id="pwd">
+            </div>
+        </div>
+        <div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3"><span class="c-red">*</span>诊疗卡：</label>
+            <div class="formControls col-xs-8 col-sm-9">
+                <input type="text" class="input-text" placeholder="" name="medCard" id="medCard">
+            </div>
+        </div>
+        <!--<div class="row cl">
+            <label class="form-label col-xs-4 col-sm-3">所在班级：</label>
+            <div class="formControls col-xs-8 col-sm-9"> <span class="select-box">
+				<select class="select" size="1" name="clazz.id" id="cid">
+
+
+				</select>
+				</span>
+            </div>
+        </div>-->
+        <!--<div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>-->
+        <div class="row cl">
+            <div class="col-xs-8 col-sm-9 col-xs-offset-4 col-sm-offset-3">
+                <input class="btn btn-primary radius" type="button" id="btnSvn" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+            </div>
+        </div>
+    </form>
+</article>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/hospital.js"></script>
+<script type="text/javascript" src="js/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+<script src="js/client.js"></script>
+
+<!--请在下方写此页面业务相关的脚本-->
+<script type="text/javascript" src="lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/validate-methods.js"></script>
+<script type="text/javascript" src="lib/jquery.validation/1.14.0/messages_zh.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('.skin-minimal input').iCheck({
+            checkboxClass: 'icheckbox-blue',
+            radioClass: 'iradio-blue',
+            increaseArea: '20%'
+        });
+
+        $("#btnSvn").click(function () {
+            var id = $("#pid").attr("value");
+            var type;
+            //判断sno是否有值  有值就给隐藏框act赋值upd，没值就赋值add
+            if(id != undefined && id != ""&& id != 0){
+                type="put";
+            }else{
+                type="post";
+            }
+            console.log(type);
+            var data={
+                "pid":$("#pid").val(),
+                "pname":$("#pname").val(),
+                "sex":$("#sex").val(),
+                "gender":$("#gender").val(),
+                "idCard":$("#idCard").val(),
+                "pwd":$("#pwd").val(),
+                "medCard":$("#medCard").val(),
+                "email":$("#email").val(),
+                "phone":$("#phone").val(),
+            };
+            console.log(data);
+            $.ajax({
+                data:data,
+                type:type,
+                url:HOST_URL1+"edit",
+                headers: createAuthorizationTokenHeader(),
+                success:function (result) {
+                    console.log("新增结果"+result);
+                    window.parent.location.reload(); //刷新父页面
+                    var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+                    parent.layer.close(index);  // 关闭layer
+                }
+            })
+        });
+
+
+        $("#form-member-add").validate({
+            rules:{
+                pname:{
+                    required:true,
+                    minlength:2,
+                    maxlength:16
+                },
+                sex:{
+                    required:true,
+                },
+                phone:{
+                    required:true,
+                    isMobile:true,
+                },
+                email:{
+                    required:true,
+                    email:true,
+                },
+                idCard:{
+                    required:true,
+                },
+
+            },
+            onkeyup:false,
+            focusCleanup:true,
+            success:"valid",
+            /*submitHandler:function(form){
+            }*/
+        });
+        queryById();
+    });
+    function queryById() {
+        //接收从父窗口传过来的sno，根据传过来的sno来判断是新增还是修改
+        var pid = localStorage.getItem("pid");
+        if (pid != undefined && pid != ""&& pid != 0) {
+            //如果pid有值，就是修改
+            // 就把pid的值赋值给隐藏框pid
+            $("#pid").val(pid);
+            $.ajax({
+                type:"get",
+                url: HOST_URL1+"query?pid="+pid,
+                dataType:'json',
+                headers: createAuthorizationTokenHeader(),
+                success:function (result) {
+                    $("#pname").val(result.pname);
+                    $("#sex").val(result.sex);
+                    $("#gender").val(result.gender);
+                    $("#idCard").val(result.idCard);
+                    $("#phone").val(result.phone);
+                    $("#email").val(result.email);
+                    $("#pwd").val(result.pwd);
+                    $("#medCard").val(result.medCard);
+                }
+            })
+        }
+
+    }
+</script>
+<!--/请在上方写此页面业务相关的脚本-->
+</body>
+</html>

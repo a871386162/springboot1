@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.newer.springboot.mapper.AdminMapper">
+
+    <resultMap id="result-admins" type="com.newer.springboot.domain.Admins">
+        <id property="aid" column="aid"></id>
+        <result property="aname" column="aname"/>
+        <result property="state" column="state"/>
+        <result property="pwd" column="pwd"/>
+        <result property="email" column="email"/>
+        <result property="lastPassworldResetDate" column="lastpasswordresetdate"/>
+        <result property="aexist" column="aexist"/>
+        <collection property="authorities" ofType="com.newer.springboot.domain.Authority">
+            <id property="id" column="id" />
+            <result property="name" column="name"/>
+        </collection>
+    </resultMap>
+
+    <select id="findUserByUsername" resultMap="result-admins">
+        select a.aid,a.aname,a.state,a.pwd,a.email,a.LASTPASSWORDRESETDATE,a.aexist,au.id,au.name from admins a,authority au,user_authority ua
+        where a.aid = ua.user_id and au.id = ua.AUTHORITY_ID and a.aname = #{aname}
+    </select>
+</mapper>

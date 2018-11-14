@@ -1,0 +1,27 @@
+2018-11-09 21:13:44,762  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-09 21:13:44,770  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-09 21:13:44,771  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-09 21:13:44,772  INFO WebLogAspect:40 ---- IPGET
+2018-11-09 21:13:44,773  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-09 21:13:44,773  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@9f7cc81]]]
+2018-11-09 21:13:44,786  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-09 21:13:44,787  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@746c2dc8,{}>
+2018-11-09 21:13:44,788  INFO WebLogAspect:50 ---- SPEND TIME18
+2018-11-09 21:13:44,844  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-09 21:13:44,847  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-09 21:13:44,848  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-09 21:13:44,848  INFO WebLogAspect:40 ---- IPGET
+2018-11-09 21:13:44,849  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-09 21:13:44,850  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3daf9410]]]
+2018-11-09 21:13:44,856  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-09 21:13:44,857  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-09 21:13:44,858  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-09 21:13:44,858  INFO WebLogAspect:40 ---- IPGET
+2018-11-09 21:13:44,858  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-09 21:13:44,859  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@9f7cc81]]]
+2018-11-09 21:13:44,898  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-09 21:13:44,899  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-09 21:13:44,899  INFO WebLogAspect:50 ---- SPEND TIME42
+2018-11-09 21:13:44,994  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-09 21:13:44,995  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-09 21:13:44,996  INFO WebLogAspect:50 ---- SPEND TIME149

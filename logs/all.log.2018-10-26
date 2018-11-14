@@ -1,0 +1,45 @@
+2018-10-26 22:23:10,262  INFO WebLogAspect:33 - WebLogAspect.before
+2018-10-26 22:23:10,264  INFO WebLogAspect:38 - URL/api/logout
+2018-10-26 22:23:10,264  INFO WebLogAspect:39 - HTTP_METHODGET
+2018-10-26 22:23:10,265  INFO WebLogAspect:40 - IPGET
+2018-10-26 22:23:10,266  INFO WebLogAspect:41 - CLASS_TYPEclass com.newer.springboot.controller.AdminsControllerlogout
+2018-10-26 22:23:10,267  INFO WebLogAspect:42 - Parameter[org.apache.catalina.session.StandardSessionFacade@7101a3fc]
+2018-10-26 22:23:10,270  INFO WebLogAspect:47 - WebLogAspect.after
+2018-10-26 22:23:10,271  INFO WebLogAspect:48 - RETURING:<200 OK,com.newer.springboot.domain.CustomErrorType@36618941,{}>
+2018-10-26 22:23:10,271  INFO WebLogAspect:50 - SPEND TIME7
+2018-10-26 22:25:37,367  INFO WebLogAspect:33 - WebLogAspect.before
+2018-10-26 22:25:37,368  INFO WebLogAspect:38 - URL/api/users
+2018-10-26 22:25:37,368  INFO WebLogAspect:39 - HTTP_METHODGET
+2018-10-26 22:25:37,369  INFO WebLogAspect:40 - IPGET
+2018-10-26 22:25:37,369  INFO WebLogAspect:41 - CLASS_TYPEclass com.newer.springboot.controller.AdminsControllerlogin
+2018-10-26 22:25:37,369  INFO WebLogAspect:42 - Parameter[admin, admin, org.apache.catalina.session.StandardSessionFacade@7101a3fc]
+2018-10-26 22:25:37,520  INFO WebLogAspect:47 - WebLogAspect.after
+2018-10-26 22:25:37,521  INFO WebLogAspect:48 - RETURING:<200 OK,Admins{aid=1, aname='admin', pwd='21232F297A5', state=0, email='admin@gmail.com', lastPwssworldResetDate=null, aexist=1, loginTime=null, doId=null, by1='医生头衔', by2=null},{}>
+2018-10-26 22:25:37,521  INFO WebLogAspect:50 - SPEND TIME153
+2018-10-26 22:25:37,827  INFO WebLogAspect:33 - WebLogAspect.before
+2018-10-26 22:25:37,829  INFO WebLogAspect:38 - URL/api/userSession
+2018-10-26 22:25:37,831  INFO WebLogAspect:39 - HTTP_METHODGET
+2018-10-26 22:25:37,833  INFO WebLogAspect:40 - IPGET
+2018-10-26 22:25:37,834  INFO WebLogAspect:41 - CLASS_TYPEclass com.newer.springboot.controller.AdminsControlleruserSession
+2018-10-26 22:25:37,835  INFO WebLogAspect:42 - Parameter[org.apache.catalina.session.StandardSessionFacade@7101a3fc]
+2018-10-26 22:25:37,835  INFO WebLogAspect:47 - WebLogAspect.after
+2018-10-26 22:25:37,836  INFO WebLogAspect:48 - RETURING:<200 OK,Admins{aid=1, aname='admin', pwd='21232F297A5', state=0, email='admin@gmail.com', lastPwssworldResetDate=null, aexist=1, loginTime=null, doId=null, by1='医生头衔', by2=null},{}>
+2018-10-26 22:25:37,836  INFO WebLogAspect:50 - SPEND TIME7
+2018-10-26 22:25:37,947  INFO WebLogAspect:33 - WebLogAspect.before
+2018-10-26 22:25:37,949  INFO WebLogAspect:38 - URL/api/bookdepart
+2018-10-26 22:25:37,950  INFO WebLogAspect:39 - HTTP_METHODGET
+2018-10-26 22:25:37,951  INFO WebLogAspect:40 - IPGET
+2018-10-26 22:25:37,951  INFO WebLogAspect:41 - CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-10-26 22:25:37,952  INFO WebLogAspect:42 - Parameter[org.apache.catalina.session.StandardSessionFacade@7101a3fc]
+2018-10-26 22:25:37,953  INFO WebLogAspect:33 - WebLogAspect.before
+2018-10-26 22:25:37,953  INFO WebLogAspect:38 - URL/api/drawbook
+2018-10-26 22:25:37,954  INFO WebLogAspect:39 - HTTP_METHODGET
+2018-10-26 22:25:37,954  INFO WebLogAspect:40 - IPGET
+2018-10-26 22:25:37,954  INFO WebLogAspect:41 - CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-10-26 22:25:37,955  INFO WebLogAspect:42 - Parameter[org.apache.catalina.session.StandardSessionFacade@7101a3fc]
+2018-10-26 22:25:37,992  INFO WebLogAspect:47 - WebLogAspect.after
+2018-10-26 22:25:37,993  INFO WebLogAspect:48 - RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-10-26 22:25:37,993  INFO WebLogAspect:50 - SPEND TIME40
+2018-10-26 22:25:38,055  INFO WebLogAspect:47 - WebLogAspect.after
+2018-10-26 22:25:38,057  INFO WebLogAspect:48 - RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=4, monCount=4, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=4, monCount=4, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=2, monCount=2, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-10-26 22:25:38,057  INFO WebLogAspect:50 - SPEND TIME108

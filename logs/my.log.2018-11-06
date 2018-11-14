@@ -1,0 +1,688 @@
+2018-11-06 10:51:52,126  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 10:51:52,141  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-06 10:51:52,143  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 10:51:52,143  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 10:51:52,147  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-06 10:51:52,148  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2c31b43a]]]
+2018-11-06 10:51:52,164  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 10:51:52,164  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@79f2093c,{}>
+2018-11-06 10:51:52,165  INFO WebLogAspect:50 ---- SPEND TIME24
+2018-11-06 10:51:52,218  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 10:51:52,219  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 10:51:52,219  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-06 10:51:52,220  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-06 10:51:52,220  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 10:51:52,221  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 10:51:52,222  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 10:51:52,222  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 10:51:52,223  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-06 10:51:52,223  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-06 10:51:52,224  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2c31b43a]]]
+2018-11-06 10:51:52,224  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3ab9593f]]]
+2018-11-06 10:51:52,277  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 10:51:52,278  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-06 10:51:52,278  INFO WebLogAspect:50 ---- SPEND TIME58
+2018-11-06 10:51:52,365  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 10:51:52,365  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-06 10:51:52,366  INFO WebLogAspect:50 ---- SPEND TIME147
+2018-11-06 10:51:54,304  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 10:51:54,304  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 10:51:54,304  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 10:51:54,305  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 10:51:54,305  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 10:51:54,305  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 10:51:54,327  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 10:51:54,328  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 10:51:54,328  INFO WebLogAspect:50 ---- SPEND TIME24
+2018-11-06 11:02:51,612  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:02:51,612  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-06 11:02:51,613  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:02:51,613  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:02:51,614  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-06 11:02:51,614  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2c31b43a]]]
+2018-11-06 11:02:51,621  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:02:51,621  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@119f60f3,{}>
+2018-11-06 11:02:51,622  INFO WebLogAspect:50 ---- SPEND TIME10
+2018-11-06 11:02:51,867  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:02:51,871  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:02:51,872  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-06 11:02:51,873  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-06 11:02:51,873  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:02:51,874  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:02:51,874  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:02:51,874  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:02:51,874  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-06 11:02:51,875  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-06 11:02:51,875  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3ab9593f]]]
+2018-11-06 11:02:51,875  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2c31b43a]]]
+2018-11-06 11:02:51,905  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:02:51,906  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-06 11:02:51,906  INFO WebLogAspect:50 ---- SPEND TIME33
+2018-11-06 11:02:52,000  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:02:52,001  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-06 11:02:52,002  INFO WebLogAspect:50 ---- SPEND TIME130
+2018-11-06 11:02:56,703  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:02:56,704  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:02:56,704  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:02:56,704  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:02:56,705  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:02:56,705  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:02:56,709  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:02:56,710  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:02:56,710  INFO WebLogAspect:50 ---- SPEND TIME6
+2018-11-06 11:03:09,867  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:03:09,868  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-06 11:03:09,868  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:03:09,868  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:03:09,869  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-06 11:03:09,869  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3ab9593f]]]
+2018-11-06 11:03:09,874  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:03:09,874  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@390043ec,{}>
+2018-11-06 11:03:09,875  INFO WebLogAspect:50 ---- SPEND TIME7
+2018-11-06 11:03:10,817  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:03:10,818  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-06 11:03:10,818  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:03:10,818  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:03:10,819  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-06 11:03:10,819  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@3ab9593f]]]
+2018-11-06 11:03:10,848  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:03:10,848  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-06 11:03:10,849  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:03:10,849  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:03:10,849  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-06 11:03:10,850  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@2c31b43a]]]
+2018-11-06 11:03:10,873  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:03:10,874  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-06 11:03:10,874  INFO WebLogAspect:50 ---- SPEND TIME26
+2018-11-06 11:03:10,899  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:03:10,900  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-06 11:03:10,901  INFO WebLogAspect:50 ---- SPEND TIME82
+2018-11-06 11:04:03,628  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:04:03,629  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:04:03,629  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:04:03,629  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:04:03,629  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:04:03,630  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:04:03,640  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:04:03,640  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}, Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科', druganddeparts=null, drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}, Drug{drid=4, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='外科', druganddeparts=null, drname='吉加', drsum=100.0, drprice=76.0, drstate=1, by1='null', by2=null}, Drug{drid=5, dyid=3, drugType=DrugType{dyid=3, dyname='心脑血管', dystate='1', by1='null', by2=null}, dename='外科', druganddeparts=null, drname='
+安理申', drsum=100.0, drprice=147.0, drstate=1, by1='null', by2=null}, Drug{drid=6, dyid=3, drugType=DrugType{dyid=3, dyname='心脑血管', dystate='1', by1='null', by2=null}, dename='儿科', druganddeparts=null, drname='思博海', drsum=100.0, drprice=438.0, drstate=1, by1='null', by2=null}, Drug{drid=7, dyid=4, drugType=DrugType{dyid=4, dyname='神经系统', dystate='1', by1='null', by2=null}, dename='妇科', druganddeparts=null, drname='杰诺达', drsum=100.0, drprice=148.0, drstate=1, by1='null', by2=null}, Drug{drid=9, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='眼科', druganddeparts=null, drname='你妈妈', drsum=100.0, drprice=100.0, drstate=1, by1='null', by2=null}, Drug{drid=11, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科', druganddeparts=null, drname='哈哈哈999', drsum=100.0, drprice=100.0, drstate=1, by1='null', by2=null}, Drug{drid=15, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='儿科', druganddeparts=null, drname='牛批', drsum=111.0, drprice=1111.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:04:03,641  INFO WebLogAspect:50 ---- SPEND TIME12
+2018-11-06 11:06:47,449  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:06:47,450  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:06:47,450  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:06:47,450  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:06:47,451  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:06:47,451  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:06:47,462  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:06:47,463  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:06:47,463  INFO WebLogAspect:50 ---- SPEND TIME13
+2018-11-06 11:08:21,651  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:08:21,652  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:08:21,652  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:08:21,653  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:08:21,653  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:08:21,654  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:08:31,674  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:08:31,675  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:08:31,677  INFO WebLogAspect:50 ---- SPEND TIME10025
+2018-11-06 11:08:34,163  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:08:34,164  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:08:34,164  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:08:34,164  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:08:34,165  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:08:34,166  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:09:25,503  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:09:25,504  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:09:25,505  INFO WebLogAspect:50 ---- SPEND TIME51341
+2018-11-06 11:09:47,918  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:09:47,919  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-06 11:09:47,919  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:09:47,920  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:09:47,921  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-06 11:09:47,921  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@72ee1736]]]
+2018-11-06 11:09:47,937  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:09:47,937  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@66588811,{}>
+2018-11-06 11:09:47,938  INFO WebLogAspect:50 ---- SPEND TIME19
+2018-11-06 11:09:48,114  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:09:48,115  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-06 11:09:48,115  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:09:48,116  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:09:48,118  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:09:48,118  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-06 11:09:48,119  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-06 11:09:48,119  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@638e3329]]]
+2018-11-06 11:09:48,119  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:09:48,120  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:09:48,121  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-06 11:09:48,121  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@72ee1736]]]
+2018-11-06 11:09:48,156  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:09:48,156  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-06 11:09:48,157  INFO WebLogAspect:50 ---- SPEND TIME38
+2018-11-06 11:09:48,561  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:09:48,562  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-06 11:09:48,562  INFO WebLogAspect:50 ---- SPEND TIME447
+2018-11-06 11:10:00,784  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:10:00,785  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:10:00,786  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:10:00,786  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:10:00,787  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:10:00,788  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:10:03,743  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:10:03,743  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,外科,儿科,妇科,眼科,内科,妇科,口腔科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:10:03,744  INFO WebLogAspect:50 ---- SPEND TIME2959
+2018-11-06 11:20:40,425  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:20:40,426  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:20:40,426  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:20:40,426  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:20:40,426  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:20:40,427  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:20:42,991  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:20:42,992  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=null, drugType=DrugType{dyid=null, dyname='内分泌科', dystate='null', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:20:42,992  INFO WebLogAspect:50 ---- SPEND TIME2566
+2018-11-06 11:21:00,039  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:21:00,040  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:21:00,042  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:21:00,042  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:21:00,043  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:21:00,043  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:21:03,965  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:21:03,966  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=null, drugType=DrugType{dyid=null, dyname='内分泌科', dystate='null', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', druganddeparts=null, drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:21:03,966  INFO WebLogAspect:50 ---- SPEND TIME3926
+2018-11-06 11:28:51,800  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:28:51,804  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:28:51,805  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:28:51,806  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:28:51,806  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:28:51,811  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:30:01,576  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:30:01,577  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:30:01,577  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:30:01,578  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:30:01,580  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:30:01,580  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:25,185  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:25,186  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:25,187  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:25,187  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:25,188  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:25,189  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:25,223  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:25,224  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:31:25,224  INFO WebLogAspect:50 ---- SPEND TIME38
+2018-11-06 11:31:25,677  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:25,678  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:25,679  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:25,679  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:25,680  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:25,681  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:25,684  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:25,684  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:31:25,685  INFO WebLogAspect:50 ---- SPEND TIME7
+2018-11-06 11:31:27,327  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:27,327  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:27,327  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:27,328  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:27,328  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:27,328  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:27,331  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:27,331  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:31:27,331  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:27,831  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:27,831  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:27,831  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:27,832  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:27,832  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:27,832  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:27,834  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:27,835  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:31:27,835  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:28,279  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:28,279  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:28,280  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:28,280  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:28,281  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:28,281  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:28,283  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:28,283  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=1, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='内科,内科,外科,儿科,儿科,耳鼻喉科', drname='阿胶', drsum=1001.0, drprice=996.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:31:28,284  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:31:30,580  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:30,580  INFO WebLogAspect:38 ---- URL/drug/delete
+2018-11-06 11:31:30,580  INFO WebLogAspect:39 ---- HTTP_METHODDELETE
+2018-11-06 11:31:30,581  INFO WebLogAspect:40 ---- IPDELETE
+2018-11-06 11:31:30,581  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerdelDrug
+2018-11-06 11:31:30,582  INFO WebLogAspect:42 ---- Parameter[1]
+2018-11-06 11:31:30,587  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:30,588  INFO WebLogAspect:48 ---- RETURING:<200 OK,1,{}>
+2018-11-06 11:31:30,588  INFO WebLogAspect:50 ---- SPEND TIME8
+2018-11-06 11:31:38,706  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:38,706  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:38,706  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:38,707  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:38,707  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:38,707  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:38,710  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:38,711  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:38,712  INFO WebLogAspect:50 ---- SPEND TIME6
+2018-11-06 11:31:40,333  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:40,333  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:40,334  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:40,334  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:40,335  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:40,335  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:40,338  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:40,339  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:40,339  INFO WebLogAspect:50 ---- SPEND TIME6
+2018-11-06 11:31:40,845  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:40,845  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:40,845  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:40,845  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:40,846  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:40,846  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:40,850  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:40,850  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:40,850  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:31:41,232  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:41,232  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:41,232  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:41,233  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:41,233  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:41,233  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:41,235  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:41,236  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:41,236  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:41,545  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:41,546  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:41,548  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:41,548  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:41,549  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:41,550  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:41,552  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:41,553  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:41,553  INFO WebLogAspect:50 ---- SPEND TIME8
+2018-11-06 11:31:41,735  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:41,735  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:41,736  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:41,736  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:41,736  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:41,737  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:41,739  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:41,740  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:41,740  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:31:41,930  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:41,931  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:41,931  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:41,931  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:41,931  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:41,931  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:41,933  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:41,934  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:41,934  INFO WebLogAspect:50 ---- SPEND TIME3
+2018-11-06 11:31:42,220  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:42,221  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:42,221  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:42,221  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:42,221  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:42,222  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:42,223  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:42,224  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:42,224  INFO WebLogAspect:50 ---- SPEND TIME3
+2018-11-06 11:31:42,614  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:42,615  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:42,615  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:42,615  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:42,616  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:42,616  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:42,618  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:42,619  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:42,619  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:43,025  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:43,026  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:43,026  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:43,026  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:43,026  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:43,026  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:43,030  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:43,030  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:43,030  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:43,436  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:43,436  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:43,437  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:43,437  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:43,437  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:43,438  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:43,442  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:43,443  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:43,443  INFO WebLogAspect:50 ---- SPEND TIME7
+2018-11-06 11:31:43,883  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:43,883  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:43,883  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:43,884  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:43,884  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:43,884  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:43,887  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:43,887  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:43,887  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:31:44,379  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:31:44,380  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:31:44,380  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:31:44,380  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:31:44,380  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:31:44,380  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:31:44,382  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:31:44,383  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:31:44,383  INFO WebLogAspect:50 ---- SPEND TIME3
+2018-11-06 11:34:57,453  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:34:57,454  INFO WebLogAspect:38 ---- URL/doctors/list
+2018-11-06 11:34:57,454  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:34:57,454  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:34:57,454  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DoctorsControllerlistAll
+2018-11-06 11:34:57,455  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:34:57,468  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:34:57,470  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Doctors{doid=1, doname='胡一青', title='主治医师', photo='', info='手术厉害33333', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=2, doname='萧炎', title='主任医师', photo='', info='手术厉害7777', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=1, tueam=null, tuepm=1, wedam=null, wedpm=1, thuam=null, thupm=1, fripm=1, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=3, doname='独孤求败', title='主治医师', photo='', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=4, doname='辰南', title='主治医师', photo='', info='手术厉害111111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=5, doname='叶凡', title='副主任医师', photo='', info='手术厉害11111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=47, doname='五大帅哥', title='主治医师', photo='111', info='手术厉害111111111111', deid='6', departs=Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=48, doname='男男女女女', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=49, doname='廖恒', title='主治医师', photo='111', info='手术厉害', deid='8', departs=Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=50, doname='你的的大爷', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=51, doname='你是猪吗', title='主任医师', photo='111', info='手术厉害111111111111', deid='5', departs=Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}],{}>
+2018-11-06 11:34:57,472  INFO WebLogAspect:50 ---- SPEND TIME18
+2018-11-06 11:35:05,064  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:35:05,064  INFO WebLogAspect:38 ---- URL/patients/list
+2018-11-06 11:35:05,065  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:35:05,065  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:35:05,066  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.patientsControllerlistAll
+2018-11-06 11:35:05,066  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:35:05,082  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:35:05,082  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Patients{pid=5, pname='阿紫222', gender='F', sex='女', phone='13807318884', idCard='430121198011288114', pwd='1314521', medCard='2452677', email='azi@gmail.com', by1='null', by2='null'}, Patients{pid=6, pname='丁春秋', gender='M', sex='男', phone='13807318883', idCard='430121198011288113', pwd='888888', medCard='6888654', email='dingchunqiu@gmail.com', by1='null', by2='null'}, Patients{pid=7, pname='段正淳', gender='M', sex='男', phone='13833445555', idCard='430121198011288112', pwd='77887788', medCard='776545678', email='duanzhengchun@gmail.com', by1='null', by2='null'}, Patients{pid=8, pname='虚竹', gender='M', sex='男', phone='13807318881', idCard='430121198011288111', pwd='888888', medCard='8873563', email='xuzhu@gmail.com', by1='null', by2='null'}, Patients{pid=9, pname='郭靖', gender='M', sex='男', phone='13807311111', idCard='430121199910010101', pwd='888888', medCard='965321', email='guojing@gmail.com', by1='null', by2='null'}, Patients{pid=11, pname='欧阳克', gender='M', sex='男', phone='13807311113', idCard='430121199910010103', pwd='888888', medCard='11134123', email='ouyangke@gmail.com', by1='null', by2='null'}, Patients{pid=12, pname='杨康', gender='M', sex='男', phone='13807311114', idCard='430121199910010104', pwd='888888', medCard='1342345', email='yangkang@gmail.com', by1='null', by2='null'}, Patients{pid=13, pname='穆念慈', gender='F', sex='女', phone='13807311115', idCard='430121199910010105', pwd='777777', medCard='13135234', email='nunianci@gmail.com', by1='null', by2='null'}, Patients{pid=16, pname='吴英健222', gender='F', sex='男', phone='13807318855', idCard='430121198011288119', pwd='123124124', medCard='3253454', email='duany@gmail.com', by1='null', by2='null'}, Patients{pid=22, pname='成龙', gender='F', sex='男', phone='18569549884', idCard='430121199802112239', pwd='poiu', medCard='45674654', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=23, pname='刘亦菲', gender='F', sex='男', phone='18569549833', idCard='430121199802112232', pwd='poiu', medCard='12312341243', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=27, pname='冯海', gender='F', sex='男', phone='18569549332', idCard='430121199802112266', pwd='poiu', medCard='3467869', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=28, pname='吴英健', gender='F', sex='男', phone='12323445678', idCard='430121199802112230', pwd='123466', medCard='11111111', email='8712@qq.com', by1='null', by2='null'}, Patients{pid=33, pname='吴英健', gender='F', sex='男', phone='12323125678', idCard='430121194402112230', pwd='123466', medCard='11111111', email='8712@qq.com', by1='null', by2='null'}],{}>
+2018-11-06 11:35:05,083  INFO WebLogAspect:50 ---- SPEND TIME19
+2018-11-06 11:35:07,702  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:35:07,702  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:35:07,702  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:35:07,702  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:35:07,703  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:35:07,703  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:35:07,705  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:35:07,705  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=3, dyid=2, drugType=DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, dename='内科,外科,儿科,儿科,耳鼻喉科', drname='倍博特', drsum=100.0, drprice=70.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:35:07,705  INFO WebLogAspect:50 ---- SPEND TIME3
+2018-11-06 11:35:39,562  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:35:39,562  INFO WebLogAspect:38 ---- URL/doctors/list
+2018-11-06 11:35:39,562  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:35:39,563  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:35:39,563  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DoctorsControllerlistAll
+2018-11-06 11:35:39,563  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:35:39,569  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:35:39,569  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Doctors{doid=1, doname='胡一青', title='主治医师', photo='', info='手术厉害33333', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=2, doname='萧炎', title='主任医师', photo='', info='手术厉害7777', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=1, tueam=null, tuepm=1, wedam=null, wedpm=1, thuam=null, thupm=1, fripm=1, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=3, doname='独孤求败', title='主治医师', photo='', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=4, doname='辰南', title='主治医师', photo='', info='手术厉害111111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=5, doname='叶凡', title='副主任医师', photo='', info='手术厉害11111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=47, doname='五大帅哥', title='主治医师', photo='111', info='手术厉害111111111111', deid='6', departs=Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=48, doname='男男女女女', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=49, doname='廖恒', title='主治医师', photo='111', info='手术厉害', deid='8', departs=Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=50, doname='你的的大爷', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=51, doname='你是猪吗', title='主任医师', photo='111', info='手术厉害111111111111', deid='5', departs=Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}],{}>
+2018-11-06 11:35:39,571  INFO WebLogAspect:50 ---- SPEND TIME9
+2018-11-06 11:35:40,456  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:35:40,457  INFO WebLogAspect:38 ---- URL/patients/list
+2018-11-06 11:35:40,457  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:35:40,457  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:35:40,458  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.patientsControllerlistAll
+2018-11-06 11:35:40,458  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:35:40,462  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:35:40,462  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Patients{pid=5, pname='阿紫222', gender='F', sex='女', phone='13807318884', idCard='430121198011288114', pwd='1314521', medCard='2452677', email='azi@gmail.com', by1='null', by2='null'}, Patients{pid=6, pname='丁春秋', gender='M', sex='男', phone='13807318883', idCard='430121198011288113', pwd='888888', medCard='6888654', email='dingchunqiu@gmail.com', by1='null', by2='null'}, Patients{pid=7, pname='段正淳', gender='M', sex='男', phone='13833445555', idCard='430121198011288112', pwd='77887788', medCard='776545678', email='duanzhengchun@gmail.com', by1='null', by2='null'}, Patients{pid=8, pname='虚竹', gender='M', sex='男', phone='13807318881', idCard='430121198011288111', pwd='888888', medCard='8873563', email='xuzhu@gmail.com', by1='null', by2='null'}, Patients{pid=9, pname='郭靖', gender='M', sex='男', phone='13807311111', idCard='430121199910010101', pwd='888888', medCard='965321', email='guojing@gmail.com', by1='null', by2='null'}, Patients{pid=11, pname='欧阳克', gender='M', sex='男', phone='13807311113', idCard='430121199910010103', pwd='888888', medCard='11134123', email='ouyangke@gmail.com', by1='null', by2='null'}, Patients{pid=12, pname='杨康', gender='M', sex='男', phone='13807311114', idCard='430121199910010104', pwd='888888', medCard='1342345', email='yangkang@gmail.com', by1='null', by2='null'}, Patients{pid=13, pname='穆念慈', gender='F', sex='女', phone='13807311115', idCard='430121199910010105', pwd='777777', medCard='13135234', email='nunianci@gmail.com', by1='null', by2='null'}, Patients{pid=16, pname='吴英健222', gender='F', sex='男', phone='13807318855', idCard='430121198011288119', pwd='123124124', medCard='3253454', email='duany@gmail.com', by1='null', by2='null'}, Patients{pid=22, pname='成龙', gender='F', sex='男', phone='18569549884', idCard='430121199802112239', pwd='poiu', medCard='45674654', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=23, pname='刘亦菲', gender='F', sex='男', phone='18569549833', idCard='430121199802112232', pwd='poiu', medCard='12312341243', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=27, pname='冯海', gender='F', sex='男', phone='18569549332', idCard='430121199802112266', pwd='poiu', medCard='3467869', email='871386162@qq.com', by1='null', by2='null'}, Patients{pid=28, pname='吴英健', gender='F', sex='男', phone='12323445678', idCard='430121199802112230', pwd='123466', medCard='11111111', email='8712@qq.com', by1='null', by2='null'}, Patients{pid=33, pname='吴英健', gender='F', sex='男', phone='12323125678', idCard='430121194402112230', pwd='123466', medCard='11111111', email='8712@qq.com', by1='null', by2='null'}],{}>
+2018-11-06 11:35:40,462  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:41:14,491  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:14,491  INFO WebLogAspect:38 ---- URL/doctors/list
+2018-11-06 11:41:14,492  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:14,492  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:14,492  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DoctorsControllerlistAll
+2018-11-06 11:41:14,492  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:41:14,499  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:14,500  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Doctors{doid=1, doname='胡一青', title='主治医师', photo='', info='手术厉害33333', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=2, doname='萧炎', title='主任医师', photo='', info='手术厉害7777', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=1, tueam=null, tuepm=1, wedam=null, wedpm=1, thuam=null, thupm=1, fripm=1, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=3, doname='独孤求败', title='主治医师', photo='', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=4, doname='辰南', title='主治医师', photo='', info='手术厉害111111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=5, doname='叶凡', title='副主任医师', photo='', info='手术厉害11111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=47, doname='五大帅哥', title='主治医师', photo='111', info='手术厉害111111111111', deid='6', departs=Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=48, doname='男男女女女', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=49, doname='廖恒', title='主治医师', photo='111', info='手术厉害', deid='8', departs=Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=50, doname='你的的大爷', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=51, doname='你是猪吗', title='主任医师', photo='111', info='手术厉害111111111111', deid='5', departs=Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}],{}>
+2018-11-06 11:41:14,505  INFO WebLogAspect:50 ---- SPEND TIME14
+2018-11-06 11:41:15,606  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:15,606  INFO WebLogAspect:38 ---- URL/doctors/list
+2018-11-06 11:41:15,606  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:15,607  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:15,607  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DoctorsControllerlistAll
+2018-11-06 11:41:15,607  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:41:15,616  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:15,616  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Doctors{doid=1, doname='胡一青', title='主治医师', photo='', info='手术厉害33333', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=2, doname='萧炎', title='主任医师', photo='', info='手术厉害7777', deid='2', departs=Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=1, tueam=null, tuepm=1, wedam=null, wedpm=1, thuam=null, thupm=1, fripm=1, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=3, doname='独孤求败', title='主治医师', photo='', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=4, doname='辰南', title='主治医师', photo='', info='手术厉害111111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=50.0, by1='null', by2=null}, Doctors{doid=5, doname='叶凡', title='副主任医师', photo='', info='手术厉害11111111111', deid='3', departs=Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=1, tuepm=null, wedam=1, wedpm=null, thuam=1, thupm=null, fripm=null, friam=1, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=47, doname='五大帅哥', title='主治医师', photo='111', info='手术厉害111111111111', deid='6', departs=Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=1, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=48, doname='男男女女女', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=49, doname='廖恒', title='主治医师', photo='111', info='手术厉害', deid='8', departs=Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=50, doname='你的的大爷', title='主治医师', photo='111', info='手术厉害111111111111', deid='4', departs=Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}, Doctors{doid=51, doname='你是猪吗', title='主任医师', photo='111', info='手术厉害111111111111', deid='5', departs=Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, monam=null, monpm=null, tueam=null, tuepm=null, wedam=null, wedpm=null, thuam=null, thupm=null, fripm=null, friam=null, satpm=null, satam=null, sunam=null, sumpm=null, pcreg=100, xcreg=100, doexist=0, bcost=100.0, by1='null', by2=null}],{}>
+2018-11-06 11:41:15,620  INFO WebLogAspect:50 ---- SPEND TIME14
+2018-11-06 11:41:16,877  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:16,878  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:16,878  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:16,878  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:16,878  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:16,878  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:16,887  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:16,888  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:16,888  INFO WebLogAspect:50 ---- SPEND TIME10
+2018-11-06 11:41:18,214  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:18,215  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:18,215  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:18,216  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:18,216  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:18,216  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:18,218  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:18,219  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:18,219  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:41:18,833  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:18,833  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:18,833  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:18,833  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:18,833  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:18,834  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:18,836  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:18,837  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:18,837  INFO WebLogAspect:50 ---- SPEND TIME4
+2018-11-06 11:41:19,261  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:19,261  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:19,262  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:19,262  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:19,262  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:19,262  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:19,266  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:19,266  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:19,267  INFO WebLogAspect:50 ---- SPEND TIME6
+2018-11-06 11:41:19,479  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:19,479  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:19,479  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:19,480  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:19,480  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:19,480  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:19,483  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:19,483  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:19,484  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:41:19,708  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:41:19,708  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:41:19,708  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:41:19,708  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:41:19,709  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:41:19,709  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:41:19,712  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:41:19,712  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:41:19,713  INFO WebLogAspect:50 ---- SPEND TIME5
+2018-11-06 11:49:56,582  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:49:56,583  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:49:56,584  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:49:56,584  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:49:56,584  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:49:56,585  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:50:26,578  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:26,579  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null}],{}>
+2018-11-06 11:50:26,580  INFO WebLogAspect:50 ---- SPEND TIME29997
+2018-11-06 11:50:31,577  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:31,579  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:31,580  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:31,585  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:31,586  INFO WebLogAspect:38 ---- URL/drug/drugdepart
+2018-11-06 11:50:31,587  INFO WebLogAspect:38 ---- URL/drug/queryById
+2018-11-06 11:50:31,587  INFO WebLogAspect:38 ---- URL/drug/listDP
+2018-11-06 11:50:31,587  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:31,587  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:31,587  INFO WebLogAspect:38 ---- URL/drug/listDT
+2018-11-06 11:50:31,588  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:31,588  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:31,588  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:31,589  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerfindDrDe
+2018-11-06 11:50:31,589  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerqueryById
+2018-11-06 11:50:31,589  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:31,591  INFO WebLogAspect:42 ---- Parameter[2]
+2018-11-06 11:50:31,590  INFO WebLogAspect:42 ---- Parameter[2]
+2018-11-06 11:50:31,590  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:31,592  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAllDP
+2018-11-06 11:50:31,593  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:50:31,591  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:31,595  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:31,595  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:31,596  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Departs{deid=3, dename='儿科', intro='null', deexist=null, by1='null', by2=null}, Departs{deid=4, dename='妇科', intro='null', deexist=null, by1='null', by2=null}],{}>
+2018-11-06 11:50:31,596  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAllDT
+2018-11-06 11:50:31,597  INFO WebLogAspect:50 ---- SPEND TIME11
+2018-11-06 11:50:31,596  INFO WebLogAspect:48 ---- RETURING:<200 OK,Drug{drid=2, dyid=5, drugType=null, dename='null', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null},{}>
+2018-11-06 11:50:31,598  INFO WebLogAspect:50 ---- SPEND TIME11
+2018-11-06 11:50:31,597  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:50:31,602  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:31,603  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Departs{deid=1, dename='内科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=7, dename='口腔科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}],{}>
+2018-11-06 11:50:31,603  INFO WebLogAspect:50 ---- SPEND TIME16
+2018-11-06 11:50:31,605  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:31,607  INFO WebLogAspect:48 ---- RETURING:<200 OK,[DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, DrugType{dyid=3, dyname='心脑血管', dystate='1', by1='null', by2=null}, DrugType{dyid=4, dyname='神经系统', dystate='1', by1='null', by2=null}, DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}],{}>
+2018-11-06 11:50:31,608  INFO WebLogAspect:50 ---- SPEND TIME21
+2018-11-06 11:50:40,182  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:40,182  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:40,183  INFO WebLogAspect:38 ---- URL/drug/listDP
+2018-11-06 11:50:40,185  INFO WebLogAspect:38 ---- URL/drug/listDT
+2018-11-06 11:50:40,185  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:40,185  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:40,186  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:40,186  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:40,187  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAllDP
+2018-11-06 11:50:40,187  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAllDT
+2018-11-06 11:50:40,188  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:50:40,188  INFO WebLogAspect:42 ---- Parameter[]
+2018-11-06 11:50:40,192  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:40,192  INFO WebLogAspect:48 ---- RETURING:<200 OK,[DrugType{dyid=2, dyname='滋补调养', dystate='1', by1='null', by2=null}, DrugType{dyid=3, dyname='心脑血管', dystate='1', by1='null', by2=null}, DrugType{dyid=4, dyname='神经系统', dystate='1', by1='null', by2=null}, DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}],{}>
+2018-11-06 11:50:40,194  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:40,203  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Departs{deid=1, dename='内科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=2, dename='外科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=3, dename='儿科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=4, dename='妇科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=5, dename='眼科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=6, dename='耳鼻喉科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=7, dename='口腔科', intro='长沙一绝', deexist=1, by1='null', by2=null}, Departs{deid=8, dename='皮肤科', intro='长沙一绝', deexist=1, by1='null', by2=null}],{}>
+2018-11-06 11:50:40,204  INFO WebLogAspect:50 ---- SPEND TIME21
+2018-11-06 11:50:40,213  INFO WebLogAspect:50 ---- SPEND TIME29
+2018-11-06 11:50:40,216  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:40,219  INFO WebLogAspect:38 ---- URL/drug/queryById
+2018-11-06 11:50:40,221  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:40,221  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:40,222  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerqueryById
+2018-11-06 11:50:40,256  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:40,256  INFO WebLogAspect:42 ---- Parameter[2]
+2018-11-06 11:50:40,257  INFO WebLogAspect:38 ---- URL/drug/drugdepart
+2018-11-06 11:50:40,258  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:40,258  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:40,258  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerfindDrDe
+2018-11-06 11:50:40,259  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:40,259  INFO WebLogAspect:42 ---- Parameter[2]
+2018-11-06 11:50:40,259  INFO WebLogAspect:48 ---- RETURING:<200 OK,Drug{drid=2, dyid=5, drugType=null, dename='null', drname='费普利', drsum=100.0, drprice=1081.0, drstate=1, by1='null', by2=null},{}>
+2018-11-06 11:50:40,262  INFO WebLogAspect:50 ---- SPEND TIME43
+2018-11-06 11:50:40,263  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:40,264  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Departs{deid=3, dename='儿科', intro='null', deexist=null, by1='null', by2=null}, Departs{deid=4, dename='妇科', intro='null', deexist=null, by1='null', by2=null}],{}>
+2018-11-06 11:50:40,264  INFO WebLogAspect:50 ---- SPEND TIME7
+2018-11-06 11:50:43,479  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:43,479  INFO WebLogAspect:38 ---- URL/drug/drugschangestate
+2018-11-06 11:50:43,479  INFO WebLogAspect:39 ---- HTTP_METHODPOST
+2018-11-06 11:50:43,479  INFO WebLogAspect:40 ---- IPPOST
+2018-11-06 11:50:43,480  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerchangeState
+2018-11-06 11:50:43,480  INFO WebLogAspect:42 ---- Parameter[2, 0]
+2018-11-06 11:50:46,915  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:46,915  INFO WebLogAspect:48 ---- RETURING:<200 OK,1,{}>
+2018-11-06 11:50:46,916  INFO WebLogAspect:50 ---- SPEND TIME3437
+2018-11-06 11:50:47,058  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:50:47,058  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:50:47,059  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:50:47,059  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:50:47,059  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:50:47,060  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:50:48,593  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:50:48,594  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:50:48,595  INFO WebLogAspect:50 ---- SPEND TIME1537
+2018-11-06 11:53:54,445  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:53:54,445  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:53:54,446  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:53:54,446  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:53:54,446  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:53:54,446  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:54:17,412  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:54:17,413  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:54:17,413  INFO WebLogAspect:50 ---- SPEND TIME22968
+2018-11-06 11:55:15,108  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:55:15,108  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:55:15,108  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:55:15,109  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:55:15,109  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:55:15,109  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:55:38,615  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:55:38,617  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:55:38,617  INFO WebLogAspect:50 ---- SPEND TIME23509
+2018-11-06 11:58:08,248  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:58:08,249  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:58:08,250  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:58:08,250  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:58:08,251  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:58:08,251  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:58:38,699  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:58:38,700  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:58:38,704  INFO WebLogAspect:50 ---- SPEND TIME30455
+2018-11-06 11:59:28,437  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:59:28,438  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:59:28,438  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:59:28,439  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:59:28,439  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:59:28,440  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 11:59:33,713  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 11:59:33,714  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 11:59:33,717  INFO WebLogAspect:50 ---- SPEND TIME5279
+2018-11-06 11:59:59,188  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 11:59:59,188  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 11:59:59,189  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 11:59:59,189  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 11:59:59,190  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 11:59:59,190  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 12:00:15,333  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 12:00:15,334  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 12:00:15,335  INFO WebLogAspect:50 ---- SPEND TIME16147
+2018-11-06 12:42:08,600  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 12:42:08,602  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-06 12:42:08,604  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 12:42:08,604  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 12:42:08,606  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-06 12:42:08,607  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@d8a61ea]]]
+2018-11-06 12:42:08,617  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 12:42:08,617  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@58fcbcdc,{}>
+2018-11-06 12:42:08,619  INFO WebLogAspect:50 ---- SPEND TIME18
+2018-11-06 12:42:08,675  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 12:42:08,676  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-06 12:42:08,677  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 12:42:08,678  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 12:42:08,678  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-06 12:42:08,680  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@18e17476]]]
+2018-11-06 12:42:08,704  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 12:42:08,705  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-06 12:42:08,705  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 12:42:08,705  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 12:42:08,706  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-06 12:42:08,706  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@d8a61ea]]]
+2018-11-06 12:42:08,739  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 12:42:08,740  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-06 12:42:08,740  INFO WebLogAspect:50 ---- SPEND TIME35
+2018-11-06 12:42:08,864  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 12:42:08,865  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-06 12:42:08,866  INFO WebLogAspect:50 ---- SPEND TIME190
+2018-11-06 12:42:10,462  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 12:42:10,462  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 12:42:10,463  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 12:42:10,463  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 12:42:10,463  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 12:42:10,463  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 12:42:10,505  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 12:42:10,506  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 12:42:10,506  INFO WebLogAspect:50 ---- SPEND TIME44
+2018-11-06 14:48:13,578  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 14:48:13,579  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 14:48:13,579  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 14:48:13,580  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 14:48:13,580  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 14:48:13,581  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 14:48:13,618  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 14:48:13,619  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 14:48:13,619  INFO WebLogAspect:50 ---- SPEND TIME40
+2018-11-06 14:55:06,869  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-06 14:55:06,870  INFO WebLogAspect:38 ---- URL/drug/list
+2018-11-06 14:55:06,871  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-06 14:55:06,871  INFO WebLogAspect:40 ---- IPGET
+2018-11-06 14:55:06,871  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.DrugControllerlistAll
+2018-11-06 14:55:06,872  INFO WebLogAspect:42 ---- Parameter[null, null]
+2018-11-06 14:55:06,874  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-06 14:55:06,874  INFO WebLogAspect:48 ---- RETURING:<200 OK,[Drug{drid=2, dyid=5, drugType=DrugType{dyid=5, dyname='内分泌科', dystate='1', by1='null', by2=null}, dename='儿科,妇科,内科,外科,儿科', drname='费普利', drsum=100.0, drprice=1081.0, drstate=0, by1='null', by2=null}],{}>
+2018-11-06 14:55:06,874  INFO WebLogAspect:50 ---- SPEND TIME4

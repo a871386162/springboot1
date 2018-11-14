@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.newer.springboot.mapper.DoctorsMapper">
+    <resultMap id="result-id" type="Doctors">
+        <id property="doid" column="doid"></id>
+        <result property="doname" column="doname"></result>
+        <result property="title" column="title"></result>
+        <result property="photo" column="photo"></result>
+        <result property="info" column="info"></result>
+        <result property="deid" column="deid"></result>
+        <result property="monam" column="monam"></result>
+        <result property="monpm" column="monpm"></result>
+        <result property="tueam" column="tueam"></result>
+        <result property="tuepm" column="tuepm"></result>
+        <result property="wedam" column="wedam"></result>
+        <result property="wedpm" column="wedpm"></result>
+        <result property="thuam" column="thuam"></result>
+        <result property="thupm" column="thupm"></result>
+        <result property="friam" column="friam"></result>
+        <result property="fripm" column="fripm"></result>
+        <result property="satam" column="satam"></result>
+        <result property="satpm" column="satpm"></result>
+        <result property="sunam" column="sunam"></result>
+        <result property="sumpm" column="sumpm"></result>
+        <result property="pcreg" column="pcreg"></result>
+        <result property="xcreg" column="xcreg"></result>
+        <result property="doexist" column="doexist"></result>
+        <result property="bcost" column="bcost"></result>
+        <result property="by1" column="by1"></result>
+        <result property="by2" column="by2"></result>
+        <association property="departs" javaType="Departs" column="deid">
+            <id property="deid" column="deid"/>
+            <result property="dename" column="dename"/>
+            <result property="intro" column="intro"/>
+            <result property="by1" column="by1"/>
+            <result property="deexist" column="deexist"/>
+            <result property="by2" column="by2"/>
+        </association>
+    </resultMap>
+    <select id="listAll" resultMap="result-id">
+        SELECT d1.*,d2.* FROM doctors d1 INNER JOIN departs d2 on d1.deid=d2.deid
+        <where>
+            <if test="doname!=null and doname!=''">
+                and d1.doname like concat('%',concat(#{doname},'%'))
+            </if>
+        </where>
+    </select>
+</mapper>

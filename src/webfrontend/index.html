@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>SpringBoot</h2>
+<div id="tips"></div>
+
+<script src="js/jquery-3.2.1.js"></script>
+</body>
+<script>
+    $.get("http://127.0.0.1:8086/hello",function (data) {
+        console.log(data);
+        $("#tips").html(data);
+    })
+</script>
+</html>

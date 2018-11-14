@@ -1,0 +1,81 @@
+2018-11-08 22:35:41,221  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:35:41,228  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-08 22:35:41,229  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:35:41,230  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:35:41,232  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-08 22:35:41,233  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@26da3847]]]
+2018-11-08 22:35:41,264  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:35:41,266  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@46b3b411,{}>
+2018-11-08 22:35:41,268  INFO WebLogAspect:50 ---- SPEND TIME40
+2018-11-08 22:35:41,322  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:35:41,323  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-08 22:35:41,324  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:35:41,324  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:35:41,325  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-08 22:35:41,327  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@50eca8b6]]]
+2018-11-08 22:35:41,339  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:35:41,340  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-08 22:35:41,341  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:35:41,341  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:35:41,342  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-08 22:35:41,343  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@26da3847]]]
+2018-11-08 22:35:41,408  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:35:41,409  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-08 22:35:41,410  INFO WebLogAspect:50 ---- SPEND TIME70
+2018-11-08 22:35:41,506  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:35:41,507  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-08 22:35:41,507  INFO WebLogAspect:50 ---- SPEND TIME184
+2018-11-08 22:36:30,393  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:36:30,393  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-08 22:36:30,394  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:36:30,394  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:36:30,395  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-08 22:36:30,396  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@50eca8b6]]]
+2018-11-08 22:36:30,408  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:36:30,409  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@4cdece99,{}>
+2018-11-08 22:36:30,409  INFO WebLogAspect:50 ---- SPEND TIME16
+2018-11-08 22:36:30,555  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:36:30,558  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:36:30,558  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-08 22:36:30,558  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-08 22:36:30,560  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:36:30,560  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:36:30,560  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:36:30,561  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:36:30,561  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-08 22:36:30,561  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-08 22:36:30,562  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@26da3847]]]
+2018-11-08 22:36:30,562  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@50eca8b6]]]
+2018-11-08 22:36:30,596  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:36:30,596  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-08 22:36:30,597  INFO WebLogAspect:50 ---- SPEND TIME39
+2018-11-08 22:36:30,709  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:36:30,710  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-08 22:36:30,710  INFO WebLogAspect:50 ---- SPEND TIME152
+2018-11-08 22:37:31,773  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:37:31,774  INFO WebLogAspect:38 ---- URL/api/getUser
+2018-11-08 22:37:31,774  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:37:31,775  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:37:31,775  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.AdminsControllergetUser
+2018-11-08 22:37:31,776  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@50eca8b6]]]
+2018-11-08 22:37:31,793  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:37:31,793  INFO WebLogAspect:48 ---- RETURING:<200 OK,com.newer.springboot.security.domain.JwtUser@f7c0594,{}>
+2018-11-08 22:37:31,794  INFO WebLogAspect:50 ---- SPEND TIME20
+2018-11-08 22:37:32,028  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:37:32,028  INFO WebLogAspect:38 ---- URL/api/bookdepart
+2018-11-08 22:37:32,029  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:37:32,030  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:37:32,031  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerbookdepart
+2018-11-08 22:37:32,035  INFO WebLogAspect:33 ---- WebLogAspect.before
+2018-11-08 22:37:32,036  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@50eca8b6]]]
+2018-11-08 22:37:32,038  INFO WebLogAspect:38 ---- URL/api/drawbook
+2018-11-08 22:37:32,056  INFO WebLogAspect:39 ---- HTTP_METHODGET
+2018-11-08 22:37:32,057  INFO WebLogAspect:40 ---- IPGET
+2018-11-08 22:37:32,057  INFO WebLogAspect:41 ---- CLASS_TYPEclass com.newer.springboot.controller.bookableControllerdrawBook
+2018-11-08 22:37:32,057  INFO WebLogAspect:42 ---- Parameter[SecurityContextHolderAwareRequestWrapper[ FirewalledRequest[ org.apache.catalina.connector.RequestFacade@26da3847]]]
+2018-11-08 22:37:32,101  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:37:32,101  INFO WebLogAspect:48 ---- RETURING:<200 OK,[{drilldown=内科, name=内科, y=0}, {drilldown=外科, name=外科, y=4}, {drilldown=儿科, name=儿科, y=4}, {drilldown=妇科, name=妇科, y=2}, {drilldown=眼科, name=眼科, y=0}, {drilldown=耳鼻喉科, name=耳鼻喉科, y=0}, {drilldown=口腔科, name=口腔科, y=0}, {drilldown=皮肤科, name=皮肤科, y=0}],{}>
+2018-11-08 22:37:32,101  INFO WebLogAspect:50 ---- SPEND TIME63
+2018-11-08 22:37:32,209  INFO WebLogAspect:47 ---- WebLogAspect.after
+2018-11-08 22:37:32,209  INFO WebLogAspect:48 ---- RETURING:<200 OK,[BookableCount{dename='内科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='外科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='儿科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=4}, BookableCount{dename='妇科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=2}, BookableCount{dename='眼科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='耳鼻喉科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='口腔科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}, BookableCount{dename='皮肤科', dayCount=0, yesCount=0, weekCount=0, monCount=0, quaCount=0}],{}>
+2018-11-08 22:37:32,210  INFO WebLogAspect:50 ---- SPEND TIME182

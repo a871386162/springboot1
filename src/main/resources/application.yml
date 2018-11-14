@@ -1,0 +1,53 @@
+server:
+  port: 8086
+  servlet:
+    context-path:
+mybatis:
+  type-aliases-package: com.newer.springboot.domain
+  #mapper-locations: classpath:mybaties/mapper/*.xml
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: root
+    password: poiulkj123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    serialization:
+       indent_output: true
+  redis:
+        host: 127.0.0.1
+        port: 6379
+        lettuce:
+          pool:
+            max-idle: 8
+            min-idle: 0
+            max-active: 8
+            max-wait: -1ms
+            shutdown-timeout: 100ms
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/logs
+
+  jmx:
+    enabled: false
+
+
+logging:
+  level:
+    org.springframework.security: info
+    com.newer.hospital.mapper: debug
+
+jwt:
+  #请求头部的属性
+  header: Authorization
+  #自定义口令
+  secret: mySecret
+  #Jwt的失效时间 秒
+  expiration: 604800
+  tokenHeader: Bearer
+  #路由：/auth 登陆路径   /refresh 令牌有失效时间，刷新令牌的方法路径
+  route:
+    authentication:
+       path: /auth
+       refresh: /refresh
+

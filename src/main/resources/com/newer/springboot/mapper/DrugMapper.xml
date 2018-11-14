@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.newer.springboot.mapper.DrugMapper">
+        <resultMap type="com.newer.springboot.domain.Drug" id="drug-result">
+            <id property="drid" column="drid"/>
+            <result property="drname" column="drname"/>
+            <result property="drsum" column="drsum"/>
+            <result property="drprice" column="drprice"/>
+            <result property="drstate" column="drstate"/>
+            <result property="dename" column="dename"/>
+            <result property="dyid" column="dyid"/>
+            <!-- 多对一映射 药品类型 -->
+            <association property="drugType" javaType="com.newer.springboot.domain.DrugType" column="dyid">
+                <id property="dyid" column="dyid"/>
+                <result property="dyname" column="dyname"/>
+                <result property="dystate" column="dystate"/>
+            </association>
+        </resultMap>
+
+
+    <select id="listAll" resultMap="drug-result">
+           select d1.drid,d1.drname,d1.drsum,d1.drprice,d1.drstate,d2.dyname,d2.dyid,d2.dystate,group_concat(d4.dename)dename from drug d1 INNER JOIN drugtype d2 on d1.dyid=d2.dyid
+           INNER JOIN druganddeparts d3 on d1.drid=d3.drid INNER JOIN departs d4 on d4.deid = d3.deid
+        <where>
+            <if test="price1!=null and price2!=null">
+                and drprice between #{price1} and #{price2} GROUP BY d1.drid
+            </if>
+        </where>
+    </select>
+</mapper>
+        <!--<association property="druganddeparts" javaType="DrugandDeparts" column="drid">
+                    <id property="drid" column="drid"/>
+                    <id property="deid" column="deid"/>
+                    <result property="by1" column="by1"></result>
+                    <result property="by2" column="by2"></result>
+                    <association property="departs" javaType="Departs" column="deid">
+                        <id property="deid" column="deid"/>
+                        <result property="dename" column="dename"/>
+                        <result property="intro" column="intro"/>
+                        <result property="by1" column="by1"/>
+                        <result property="deexist" column="deexist"/>
+                        <result property="by2" column="by2"/>
+                    </association>
+                </association>-->
