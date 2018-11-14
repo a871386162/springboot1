@@ -109,6 +109,7 @@ public class AdminsController {
      */
     @RequestMapping(value = "getUser",method = RequestMethod.GET)
     public ResponseEntity<JwtUser> getUser(HttpServletRequest request){
+        //哈哈
         String headerToken = request.getHeader("Authorization");
         JwtUser jwtUser = null;
         //注意大小写
