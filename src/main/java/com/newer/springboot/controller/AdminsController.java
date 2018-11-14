@@ -112,6 +112,7 @@ public class AdminsController {
         //哈哈
         String headerToken = request.getHeader("Authorization");
         JwtUser jwtUser = null;
+        //你妈妈
         //注意大小写
         if(headerToken!=null && headerToken.startsWith("Bearer ")){
             String authToken =  headerToken.substring(7);
